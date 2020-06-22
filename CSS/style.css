@@ -1,0 +1,56 @@
+
+
+/**************************************TAG Selector**************************/
+
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    
+}
+
+p{
+    color: coral;
+    font-family: cursive;
+}
+
+img{
+    position: sticky;
+    
+}
+
+/*********************************CLASS Selector****************************/
+
+.bacon{
+    height: 150px;
+    width: 150px;
+}
+
+/*********************************ID Selector******************************/
+
+#heading{
+    color: crimson;
+}
+
+/* a diferença principal é que ID so pode ser usado uma unica vez, enquanto que class pode ser usado em varias tags, por varias vezes*/
+/* a tag pode ter mais de 1 class ja o ID so pode ser 1*/
+/* quando usamos a tag, ou class ou id + :hover por exemplo:
+
+.bacon:hover{
+    color: gold;
+}
+o elemento mudara as suas propriedades de estilo quando passar com o mouse em cima
+
+:hover é um pseudo class
+
+um PSEUDO CLASS são palavras chaves usadas diretamente aos seletorees e indicam um estado especial do elemento
+como por exemplo o :hover, é quando tocado pelo cursor*/
+
+.bacon:hover{
+    background-color: gold;
+}
